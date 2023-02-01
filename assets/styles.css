@@ -160,6 +160,7 @@ span{
     color: hsl(0, 100%, 74%);
     font-weight: 500;
     cursor: pointer;
+    display: inline-block;
 }
 
 

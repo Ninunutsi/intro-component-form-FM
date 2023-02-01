@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}
+
+body{
+    background-image: url(./images/bg-intro-desktop.png);
+    background-position: center;
+    background-size: cover;
+    background-color: hsl(0, 100%, 74%) ;
+}
+
+main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0 5vh 0;
+}
+
+.texts{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px 0 70px;
+}
+
+.whole-form{
+    width: 45%;
+    padding: 0 70px 0 0;
+}
+
+.heading{
+    font-size: 2.8rem;
+    line-height: 3rem;
+    color: white;
+    font-weight: 700;
+}
+
+.texts-para{
+    font-size: 1.3;
+    line-height: 1.8rem;
+    color: white;
+    font-weight: 400;
+}
+
+/* form */
+
+.whole-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 6%;
+    border-radius: 10px;
+    gap: 22px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.try-it{
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    padding: 15px 25px;
+    font-weight: 400;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.div-input{
+    position: relative;
+}
+
+span{
+    display: none;
+}
+
+.div-input i{
+    position: absolute;
+    right: 10px;
+    top: 30%;
+    color: hsl(0, 100%, 74%);
+}
+
+.txt{
+    font-size: 10px;
+    color: hsl(0, 100%, 74%);
+    font-style: italic;
+    position: absolute;
+    font-weight: 500;
+    right: 2px;
+}
+
+.input{
+    padding: 9px 14px;
+    border-radius: 7px;
+    border: 1px solid hsl(246, 25%, 77%);
+    font-size: 14px;
+    color: hsl(249, 9%, 55%);
+    font-weight: 700px;
+    font-weight: bold;
+    width: 100%;
+    padding-left: 6%;
+    letter-spacing: 1.1px;
+}
+
+::placeholder{
+    color:   hsl(247, 16%, 68%) ;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.claim{
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 15px 20px;
+    border-radius: 7px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    text-transform: uppercase;
+}
+
+.claim:hover{
+    cursor: pointer;
+    transition: 1s;
+    background-color: hsla(154, 59%, 51%, 0.674);
+}
+
+.para{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.para p{
+    font-size: 11px;
+    color: hsl(246, 25%, 77%);
+    font-weight: 500;
+}
+
+.terms{
+    font-size: 11px;
+    color: hsl(0, 100%, 74%);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+

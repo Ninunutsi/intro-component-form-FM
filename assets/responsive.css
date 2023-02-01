@@ -1,0 +1,39 @@
+@media(max-width: 767px){
+    main{
+        flex-direction: column;
+        overflow-x: hidden;
+        gap: 45px;
+    }
+    
+    .texts{
+        text-align: center;
+        padding: 0 20px;
+        width: 100%;
+    }
+    
+    .whole-form{
+        width: 100%;
+        margin: auto;
+        padding: 0 20px;
+    }
+    
+    .heading{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    
+    .texts-para{
+        font-size: 1rem;
+    }
+    
+    /* form */
+
+    .try-it{
+        padding: 15px 65px;
+    }
+
+    .para p{
+        text-align: center;
+    }
+    
+}
